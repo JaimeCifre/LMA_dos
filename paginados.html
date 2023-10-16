@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página Web</title>
+</head>
+<body>
+ <header>
+        <h1>Bienvenido a mi página web</h1>
+    </header>
+<form action="/enviar.php" method="POST">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required>
+  <label for="pais">País de origen:</label>
+  <select id="pais" name="pais">
+    <option value="España">España</option>
+    <option value="Francia">Francia</option>
+    <option value="Italia">Italia</option>
+    <option value="Alemania">Alemania</option>
+  </select>
+  <button type="submit">Enviar</button>
+</form>
+         <a href="index.html"></a>
+</body>
